@@ -11,6 +11,18 @@
     }
 
     table {
-        width: 100%;
+        width: calc(100% - 2em);
+        margin: 1em;
+        border-collapse: collapse;
+
+    }
+
+    td, th {
+        border: 1px solid black;
+        width: 33%;
+    }
+
+    td {
+        padding: 0.5em;
     }
 }
